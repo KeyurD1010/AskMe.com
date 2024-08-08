@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.heh1{
+  color:rgba(0,0,50,0.8) ;
+  font-size: x-large;
+}
+.quh1{
+  font-size: xx-large;
+}
+.loginpage{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(https://as2.ftcdn.net/v2/jpg/04/94/37/09/1000_F_494370964_0i04CjwvH6IUM1MQoUDELoCHsJaWrWFb.jpg);
+  background-position: center;
+  
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
+  display: flex;
+  justify-content: center;
+}
+.loginbox{
+  background-color: white;  
+  border-radius: 10px;
+  height: 100%;
+  width: 75%;
+  position: relative;
+
+}
+.loginbox > h1{
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Quote{
+  background-color: rgba(0,0,50,0.8);
+  display: flex;
+  justify-content: center;
+  color: white; 
+  width: 100%;
+  height: 50px;
+  align-items: center;
+}
+
+.lcontent{
+ display: flex;
+ justify-content: center;
+ margin: 10px;
+ position: relative;
+ 
+}
+
+.image{
+  margin: 20px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+ 
+}
+.lfeild{ 
+  margin: 20px;
+  width: 40%;
+  text-align: center;
+  background-color: white;
+
+}
+.lfeild h1{
+  font-size: 30px;
+  color: rgba(0,0,50,0.8);
+  position: relative;
+}
+.input-fld{
+  background: #eaeaea;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  max-height: 65px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+input{
+  width: 50%;
+  height: 40px;
+  padding: 18px ;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+form p{
+  text-align: left;
+  font-size: 13px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+form p a{
+  text-decoration: none;
+  color: rgba(0,0,50,0.8);
+  font-weight: bolder;
+  
+}
+.btn-fld{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.btn-fld button{
+  flex-basis: 45%;
+  background: rgba(0,0,50,0.8);
+  color: white;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: backgroung 1s;
+  margin-bottom: 10px;
+
+}
+.btn-fld button.disable{
+  background: #eaeaea;
+  color: #555;
+}
+.glink{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin-top: 20px;    
+}
+
+.glink p{
+  font-weight: bold;
+}
+/*.glink a{
+  border-bottom: black 2px solid;
+  text-decoration: none;
+  color: rgba(0,0,50,0.8);
+  font-weight: bolder;
+}  */

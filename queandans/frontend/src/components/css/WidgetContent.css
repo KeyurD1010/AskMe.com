@@ -1,0 +1,19 @@
+ .widget_contents {
+    display: flex;
+  }
+  
+  .widget_content {
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+  }
+  
+
+  .widget_title > h4 {
+    color: rgb(70, 68, 68);
+  }
+  
+  .widget_title > p {
+    color: gray;
+    font-size: small;
+  }
